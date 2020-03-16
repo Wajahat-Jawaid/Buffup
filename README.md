@@ -1,5 +1,3 @@
-# Buffup
-Welcome to the Buffup wiki!
 # Buffup SDK
 Integrate the SDK into your Android app and enjoy the buffs!
 
@@ -64,3 +62,11 @@ Please refer to the method `private fun setAnswersView(
 * MVVM - For Host application architecture
 * Keep Activity only responsible for UI related code
 * ViewModel provides data required by the UI class
+
+## Usage
+# Gradle
+`allprojects {
+  repositories {
+    maven { url 'https://jitpack.io' }
+  }
+}`
