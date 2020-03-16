@@ -5,7 +5,7 @@ Integrate the SDK into your Android app and enjoy the buffs!
 ## SDK REQUIREMENTS
 **_Expose a function to retrieve the list of available Streams to the host App_**
 
-`BuffApi` is the API wrapper inside **Buffup** library module which exposes all API methods. Inside that, there is a method with `_fun fetchStreams(streamsListFetchedListener: OnStreamsListFetchedListener)_`. It receives the event listener callback i.e. `OnStreamsListFetchedListener`. On API response's error/success, it fires respective event to notify the activity from host app
+`BuffApi` is the API wrapper inside **Buffup** library module which exposes all API methods. Inside that, there is a method with `fun fetchStreams(streamsListFetchedListener: OnStreamsListFetchedListener)`. It receives the event listener callback i.e. `OnStreamsListFetchedListener`. On API response's error/success, it fires respective event to notify the activity from host app
 
 **_Expose a view that the host App will add in the UI over the video stream to display the Buffs_**
 
