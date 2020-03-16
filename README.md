@@ -1,6 +1,10 @@
 # Buffup SDK
 Integrate the SDK into your Android app and enjoy the buffs!
 
+# Screenshots
+
+
+
 # TEST REQUIREMENTS & THEIR RESPECTIVE SOLUTIONS
 ## SDK REQUIREMENTS
 **_Expose a function to retrieve the list of available Streams to the host App_**
