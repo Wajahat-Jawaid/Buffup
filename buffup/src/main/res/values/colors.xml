@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textDark">#333333</color>
+    <color name="red">#ff0000</color>
+    <color name="countdownTimerForeground">#ff5959</color>
+    <color name="countdownTimerBackground">#666666</color>
+    <color name="yellowffd00f">#ffd00f</color>
+    <color name="lightGrayAlpha">#AAFFFFFF</color>
+    <color name="darkGrayAlpha">#AA111111</color>
+    <color name="grayAlpha">#AA999999</color>
+</resources>

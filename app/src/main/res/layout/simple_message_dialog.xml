@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/greyfffcf5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/medium">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="Error Displaying Stream" />
+
+        <TextView
+            android:id="@+id/message_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:text="Invalid Author Object" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="@dimen/medium"
+            android:layout_marginBottom="@dimen/tiny"
+            android:background="@color/greye0" />
+
+        <Button
+            android:id="@+id/ok_btn"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@android:string/ok"
+            android:textColor="@color/textDark"
+            android:textStyle="bold" />
+    </LinearLayout>
+</layout>

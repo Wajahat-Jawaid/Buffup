@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android Standard Padding -->
+    <dimen name="tiny">8dp</dimen>
+    <dimen name="small">12dp</dimen>
+    <dimen name="medium">16dp</dimen>
+    <dimen name="large">20dp</dimen>
+    <!-- Dialog -->
+    <dimen name="dialogWidth">300dp</dimen>
+    <dimen name="dialogHeight">200dp</dimen>
+    <!-- Stream List Activity -->
+    <dimen name="steamListActivity_toolbar_height">140dp</dimen>
+    <dimen name="steamListActivity_toolbar_title_size">40sp</dimen>
+    <dimen name="steamListActivity_toolbar_user_img_size">36dp</dimen>
+    <dimen name="steamListActivity_list_margin_t">120dp</dimen>
+    <!-- Stream List Row -->
+    <dimen name="steamListRow_container_corner_radius">12dp</dimen>
+    <dimen name="steamListRow_img_height">180dp</dimen>
+    <dimen name="steamListRow_tags_margin_t">170dp</dimen>
+    <dimen name="steamListRow_play_btn_margin_t">165dp</dimen>
+    <dimen name="steamListRow_play_btn_size">30dp</dimen>
+</resources>

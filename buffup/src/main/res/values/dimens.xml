@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Android Standards -->
+    <dimen name="micro">4dp</dimen>
+
+    <dimen name="countdownTimerTextSize">13sp</dimen>
+    <dimen name="buffLayoutMargin">16dp</dimen>
+    <dimen name="answerRowMarginBottom">3dp</dimen>
+    <dimen name="authorImageSize">20dp</dimen>
+    <dimen name="questionnaireAnswerIndexTextViewSize">20dp</dimen>
+    <dimen name="questionnaireAnswersCounterTextViewSize">20dp</dimen>
+    <dimen name="subviewsCornerRadius">16dp</dimen>
+    <dimen name="questionnaireAnswersContainerPadding_r">24dp</dimen>
+    <dimen name="questionnaireAuthorContainerPadding_r">24dp</dimen>
+    <dimen name="questionnaireAuthorContainerCornerRadius">30dp</dimen>
+    <dimen name="questionnaireQuestionContainerPadding_l_t_r">10dp</dimen>
+    <dimen name="questionnaireQuestionContainerPadding_b">12dp</dimen>
+    <dimen name="questionnaireQuestionTextMargin_r">12dp</dimen>
+    <dimen name="circularCountdownSize">32dp</dimen>
+</resources>

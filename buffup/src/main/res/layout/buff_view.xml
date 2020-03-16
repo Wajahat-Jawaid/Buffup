@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/micro"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/author_info_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/questionnaire_author_layout_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/author_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/micro"
+                android:background="@drawable/author_image_bg" />
+
+            <TextView
+                android:id="@+id/author_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textDark"
+                android:textStyle="bold"
+                tools:text="Myra Ellen Amos" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answers_count_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/author_info_container"
+            android:background="@drawable/questionnaire_answers_counter_bg"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLength="1"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="2" />
+
+        <ImageButton
+            android:id="@+id/close_buff_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_close_buff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/question_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/micro"
+        android:background="@drawable/questionnaire_question_layout_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/question_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/questionnaireQuestionTextMargin_r"
+            android:layout_toStartOf="@+id/circular_progress"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:text="Why Marcelo Bielsa is still using a translator" />
+
+        <douglasspgyn.com.github.circularcountdown.CircularCountdown
+            android:id="@+id/circular_progress"
+            android:layout_width="@dimen/circularCountdownSize"
+            android:layout_height="@dimen/circularCountdownSize"
+            android:layout_alignParentEnd="true"
+            app:countdownBackgroundColor="@color/countdownTimerBackground"
+            app:countdownForegroundColor="@color/countdownTimerForeground"
+            app:countdownTextColor="@android:color/white"
+            app:countdownTextSize="@dimen/countdownTimerTextSize" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/answers_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical" />
+</LinearLayout>

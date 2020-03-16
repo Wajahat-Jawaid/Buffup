@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BuffUp</string>
+
+    <string name="retry">Retry</string>
+    <string name="post_error">An error occurred while loading the posts</string>
+    <string name="error_buff_player">Buff Player Error</string>
+    <string name="error_viewgroup">Invalid ViewGroup</string>
+    <!-- Streams List Activity -->
+    <string name="streams">Streams</string>
+    <string name="participate_msg">Participate on this live events</string>
+    <string name="live_now">Live now</string>
+</resources>

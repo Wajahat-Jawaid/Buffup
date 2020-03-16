@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/darkGrayAlpha" />
+
+    <corners android:radius="@dimen/subviewsCornerRadius" />
+
+    <padding
+        android:bottom="@dimen/questionnaireQuestionContainerPadding_b"
+        android:left="@dimen/questionnaireQuestionContainerPadding_l_t_r"
+        android:right="@dimen/questionnaireQuestionContainerPadding_l_t_r"
+        android:top="@dimen/questionnaireQuestionContainerPadding_l_t_r" />
+</shape>

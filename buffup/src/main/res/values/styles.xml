@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BuffView">
+        <attr name="buff_author_info_bg" format="integer" />
+        <attr name="buff_answers_counter_text_bg" format="integer" />
+        <attr name="buff_question_bg" format="integer" />
+        <attr name="buff_answer_row_bg" format="integer" />
+        <attr name="buff_answer_row_index_bg" format="integer" />
+        <attr name="buff_close_icon" format="integer" />
+        <attr name="buff_countdown_timer_alert_duration" format="integer" />
+
+        <attr name="buff_author_info_text_color" format="color" />
+        <attr name="buff_answers_counter_text_color" format="color" />
+        <attr name="buff_question_text_color" format="color" />
+        <attr name="buff_answer_row_index_text_color" format="color" />
+        <attr name="buff_answer_row_text_color" format="color" />
+
+        <attr name="buff_should_alert_before_ending" format="boolean" />
+        <attr name="buff_countdown_timer_alert_view_zoomed_scale" format="float" />
+    </declare-styleable>
+</resources>

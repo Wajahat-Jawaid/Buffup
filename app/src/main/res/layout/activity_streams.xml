@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.wajahat.buffdemo.ui.streams.StreamListViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/steamListActivity_toolbar_height"
+            android:background="@color/colorPrimary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/streams_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/streams"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/steamListActivity_toolbar_title_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/streams_text"
+                    android:text="@string/participate_msg"
+                    android:textColor="@color/greyfffcf5" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/author_image"
+                    android:layout_width="@dimen/steamListActivity_toolbar_user_img_size"
+                    android:layout_height="@dimen/steamListActivity_toolbar_user_img_size"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/tiny"
+                    android:layout_marginEnd="@dimen/large"
+                    android:background="@drawable/author_image_bg"
+                    android:src="@mipmap/ronaldo" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:mutableVisibility="@{viewModel.getLoadingVisibility()}" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/stream_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/steamListActivity_list_margin_t"
+            app:adapter="@{viewModel.getStreamListAdapter()}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

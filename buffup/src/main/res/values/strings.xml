@@ -1,0 +1,6 @@
+<resources>
+    <string name="only_relative_layout_supported">Parent view must be RelativeLayout to support appropriate buff controls overlaying</string>
+    <string name="invalid_author_data">Author data is invalid. Please provide valid author data to show questionnaire</string>
+    <string name="invalid_question_data">Question data is invalid. Please provide valid question data to show questionnaire</string>
+    <string name="invalid_answers_data">Answers data is invalid. Please provide valid author answers to show questionnaire</string>
+</resources>

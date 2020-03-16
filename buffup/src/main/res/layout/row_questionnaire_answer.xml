@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/questionnaire_author_layout_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/index_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/micro"
+        android:background="@drawable/questionnaire_answer_index_bg"
+        android:gravity="center"
+        android:maxLength="1"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        tools:text="A" />
+
+    <TextView
+        android:id="@+id/answer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textDark"
+        android:textSize="12sp"
+        tools:text="Its just easier for him" />
+</LinearLayout>
