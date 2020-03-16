@@ -65,7 +65,7 @@ Please refer to the method `private fun setAnswersView(
 
 ## Usage
 # Gradle
-`allprojects { <br />
+`allprojects {
   repositories {
     maven { url 'https://jitpack.io' }
   }
