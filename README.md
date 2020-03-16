@@ -8,7 +8,7 @@ Integrate the SDK into your Android app and enjoy the buffs!
 
 [logo]: https://github.com/Wajahat-Jawaid/Buffup/blob/master/streams%20list.jpg "Logo Title Text 2"
 
-### Stream Player
+Inline ### Stream Player
 ![alt text][logo]
 
 [logo]: https://github.com/Wajahat-Jawaid/Buffup/blob/master/streams%20details.jpg "Logo Title Text 2"
