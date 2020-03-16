@@ -11,14 +11,14 @@ Integrate the SDK into your Android app and enjoy the buffs!
 
 `BuffView` is the Custom View which manages creation, configuration of the whole Buff Controller. Any 3rd party application can show the view simply by adding in their XML like
 
-`
+>
         <com.wajahat.buffup.views.BuffView
             android:id="@+id/buff_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             app:buff_should_alert_before_ending="true" />
-`
+
 
 **_Handle all the business and UI logic to display the Buffs over the video in the view_**
 
