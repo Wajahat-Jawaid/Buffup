@@ -8,10 +8,10 @@ Integrate the SDK into your Android app and enjoy the buffs!
 
 [logo1]: https://github.com/Wajahat-Jawaid/Buffup/blob/master/streams%20list.jpg "Logo Title Text 1"
 
-Inline ### Stream Player
+### Stream Player
 ![alt text][logo2]
 
-[logo2]: https://github.com/Wajahat-Jawaid/Buffup/blob/master/streams%20player.jpg "Logo Title Text 2"
+[logo2]: https://github.com/Wajahat-Jawaid/Buffup/blob/master/stream%20player.jpg "Logo Title Text 2"
 
 # TEST REQUIREMENTS & THEIR RESPECTIVE SOLUTIONS
 ## SDK REQUIREMENTS
