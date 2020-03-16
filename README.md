@@ -63,8 +63,8 @@ Please refer to the method `private fun setAnswersView(
 * Keep Activity only responsible for UI related code
 * ViewModel provides data required by the UI class
 
-## Usage
-# Gradle
+# Usage
+## Gradle
 >
         allprojects {
           repositories {
@@ -76,7 +76,8 @@ Please refer to the method `private fun setAnswersView(
         dependencies {
           implementation 'com.github.Wajahat-Jawaid:Buffup:1.0.0'
         }
-
+        
+## XML
 >
         <com.wajahat.buffup.views.BuffView
             android:id="@+id/buff_view"
