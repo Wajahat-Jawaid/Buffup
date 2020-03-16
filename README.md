@@ -72,11 +72,11 @@ Please refer to the method `private fun setAnswersView(
 }``
 
 >        <com.wajahat.buffup.views.BuffView
-            android:id="@+id/buff_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            app:buff_should_alert_before_ending="true" />
+>            android:id="@+id/buff_view"
+>            android:layout_width="wrap_content"
+>            android:layout_height="wrap_content"
+>            android:layout_alignParentBottom="true"
+>            app:buff_should_alert_before_ending="true" />
 
 ## Attributes
 
