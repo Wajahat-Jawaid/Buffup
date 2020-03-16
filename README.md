@@ -3,7 +3,8 @@ Integrate the SDK into your Android app and enjoy the buffs!
 
 # Screenshots
 
-
+https://github.com/Wajahat-Jawaid/Buffup/blob/master/streams%20list.jpg
+https://github.com/Wajahat-Jawaid/Buffup/blob/master/streams%20list.jpg
 
 # TEST REQUIREMENTS & THEIR RESPECTIVE SOLUTIONS
 ## SDK REQUIREMENTS
