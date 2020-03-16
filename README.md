@@ -71,10 +71,12 @@ Please refer to the method `private fun setAnswersView(
   }
 }``
 
-Colons can be used to align columns.
+## Attributes
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+Custom properties to configure  BuffView.
+
+| Name                                         | Value         |
+| ---------------------------------------------|:-------------:|
+| buff_author_info_bg                          | right-aligned |
+| buff_answers_counter_text_bg                 | centered      |
+| buff_countdown_timer_alert_view_zoomed_scale | are neat      |
