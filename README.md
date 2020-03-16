@@ -66,11 +66,11 @@ Please refer to the method `private fun setAnswersView(
 ## Usage
 # Gradle
 >
-allprojects {
-  repositories {
-    maven { url 'https://jitpack.io' }
-  }
-}
+        allprojects {
+          repositories {
+            maven { url 'https://jitpack.io' }
+          }
+        }
 
 >
         <com.wajahat.buffup.views.BuffView
