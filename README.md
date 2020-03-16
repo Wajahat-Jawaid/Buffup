@@ -71,6 +71,11 @@ Please refer to the method `private fun setAnswersView(
             maven { url 'https://jitpack.io' }
           }
         }
+        
+>
+        dependencies {
+          implementation 'com.github.Wajahat-Jawaid:Buffup:1.0.0'
+        }
 
 >
         <com.wajahat.buffup.views.BuffView
