@@ -8,11 +8,6 @@ Integrate the SDK into your Android app and enjoy the buffs!
 
 [logo1]: https://github.com/Wajahat-Jawaid/Buffup/blob/master/streams%20list.jpg "Logo Title Text 1"
 
-Inline ### Stream Player
-![alt text][logo2]
-
-[logo2]: https://github.com/Wajahat-Jawaid/Buffup/blob/master/streams%20player.jpg "Logo Title Text 2"
-
 # TEST REQUIREMENTS & THEIR RESPECTIVE SOLUTIONS
 ## SDK REQUIREMENTS
 **_Expose a function to retrieve the list of available Streams to the host App_**
