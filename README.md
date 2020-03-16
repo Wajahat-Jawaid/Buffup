@@ -75,8 +75,19 @@ Please refer to the method `private fun setAnswersView(
 
 Custom properties to configure  BuffView.
 
-| Name                                         | Value         |
+| Name                                         | format        |
 | ---------------------------------------------|:-------------:|
-| buff_author_info_bg                          | right-aligned |
-| buff_answers_counter_text_bg                 | centered      |
-| buff_countdown_timer_alert_view_zoomed_scale | are neat      |
+| buff_author_info_bg                          | integer       |
+| buff_answers_counter_text_bg                 | integer       |
+| buff_question_bg                             | integer       |
+| buff_answer_row_bg                           | integer       |
+| buff_answer_row_index_bg                     | integer       |
+| buff_close_icon                              | integer       |
+| buff_countdown_timer_alert_duration          | integer       |
+| buff_author_info_text_color                  | color         |
+| buff_answers_counter_text_color              | color         |
+| buff_question_text_color                     | color         |
+| buff_answer_row_index_text_color             | color         |
+| buff_answer_row_text_color                   | color         |
+| buff_should_alert_before_ending              | boolean       |
+| buff_countdown_timer_alert_view_zoomed_scale | float         |
