@@ -89,7 +89,7 @@ Please refer to the method `private fun setAnswersView(
           implementation 'com.github.Wajahat-Jawaid:Buffup:1.0.0'
         }
         
-## XML
+### XML
 >
         <com.wajahat.buffup.views.BuffView
             android:id="@+id/buff_view"
@@ -111,7 +111,7 @@ Please refer to the method `private fun setAnswersView(
             app:buff_question_text_color="@android:color/white"
             app:buff_should_alert_before_ending="true" />
             
-## CUSTOMIZE BUFFVIEW PROGRAMMATICALLY
+### CUSTOMIZE BUFFVIEW PROGRAMMATICALLY
 
 > 
         val buffView = findViewById<BuffView>(R.id.buff_view)
