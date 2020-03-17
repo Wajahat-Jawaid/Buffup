@@ -96,7 +96,30 @@ Please refer to the method `private fun setAnswersView(
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            app:buff_answer_row_bg="@drawable/questionnaire_answers_layout_bg"
+            app:buff_answer_row_index_bg="@drawable/questionnaire_answer_index_bg"
+            app:buff_answer_row_index_text_color="@android:color/white"
+            app:buff_answer_row_text_color="@color/textDark"
+            app:buff_answers_counter_text_bg="@drawable/questionnaire_answers_counter_bg"
+            app:buff_answers_counter_text_color="@android:color/white"
+            app:buff_author_info_bg="@drawable/author_image_bg"
+            app:buff_author_info_text_color="@color/textDark"
+            app:buff_close_icon="@drawable/ic_close_buff"
+            app:buff_countdown_timer_alert_duration="3"
+            app:buff_countdown_timer_alert_view_zoomed_scale="1.0"
+            app:buff_question_bg="@drawable/questionnaire_question_layout_bg"
+            app:buff_question_text_color="@android:color/white"
             app:buff_should_alert_before_ending="true" />
+            
+## CUSTOMIZE BUFFVIEW PROGRAMMATICALLY
+
+> 
+        val buffView = findViewById<BuffView>(R.id.buff_view)
+        buffView.setAnswerRowBackground(ContextCompat.getDrawable(this, R.drawable.questionnaire_answers_layout_bg)!!)
+            .setAnswerRowIndexTextColor(R.color.colorPrimary)
+            .setCountdownTimerAlertSeconds(5)
+            .setCountdownTimerAlertViewZoomedScale(1.2f)
+        
 
 ## Attributes
 
